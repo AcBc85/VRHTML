@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <title>VR HTML</title>
+  </head>
+    <body>
+       
+      <header>  
+        <form id="vrhtml">   
+      <br><br><br><br>      
+       <h1>Description:</h1>
+         <input class="text-box" id="description"><br>
+           
+        <p aling="right"><textarea class="textarea" span='display' id="display" style="float:right" rows="26" cols="100">
+                 </textarea>
+                      </p> 
+            
+            <h1>Features:</h1>
+ <input class="text-box" id="features_1"><br><br><br>
+   <input class="text-box" id="features_2"><br><br> 
+     <br><input class="text-box" id="features_3"><br><br><br>
+         <input class="text-box" id="features_4"> <br>
+        
+       <h1>Fitment:</h1> 
+     <input class="text-box" id="fitment">
+    <br>
+  <h1>Note(s):</h1>    
+ <input class="text-box" id="notes" value="Pictures used for marketing purposes only. Actual product may vary.">
+    <h1>Video:</h1> 
+     <input class="text-box" id="video">        
+     <a class="btn btn-ghost" id="submit" style="float: middle" onclick="user_input();" value="submit" href="#">Submit</a>
+     <a class="btn btn-ghost" id="copy" onclick="myFunction()" style="float: middile" value="copy" href="#">Copy</a>
+      <a class="btn btn-ghost" style="float: middle" onclick="window.location.reload()" value="reset form" href="#">Clear</a>
+            
+        <script>
+function user_input() {
+    var description = document.getElementById('description').value;
+    var feat1 = document.getElementById('features_1').value;
+    var feat2 = document.getElementById('features_2').value;
+    var feat3 = document.getElementById('features_3').value;
+    var feat4 = document.getElementById('features_4').value;
+    var fitment = document.getElementById('fitment').value;
+    var notes = document.getElementById('notes').value;
+    var video = document.getElementById('video').value;
+    var html = '' + description + '<br><br><strong>Features:</strong><ul><li>' + feat1 + '</li><li>' + feat2 + '</li><li>' + feat3 + '</li><li>' + feat4 + '</li></ul><br><strong>Fitment:</strong><ul><li>' + fitment + '</li></ul><br><strong>Note(s)</strong><ul><li>' + notes + '</li></ul><center>' + video + '</center>';
+    document.getElementById('display').innerHTML = html; 
+}   document.getElementById('display').addEventListener('click', submit);</script>
+
+<script>
+    function myFunction() {
+     var copyText = document.getElementById("display");
+     copyText.select();
+     copyText.setSelectionRange(0, 99999)
+     document.execCommand("copy");
+ }
+</script>                       
+    </form>
+        </header>
+           </body>
+     <section class="bottom"></section>
+       </html>
+
+
