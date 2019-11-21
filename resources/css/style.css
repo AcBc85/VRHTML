@@ -1,0 +1,202 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+.text-box {
+    margin-left: 100px;
+    border-top: 50px;
+    border-radius: 25px;
+    border: 2px;
+    padding: 20px; 
+    width: 200px;
+    height: 15px;  
+    
+}
+
+h1,
+h2, 
+h3  {  
+    font-weight: 300;
+    text-transform: proper;
+    
+    
+}
+
+h1 {
+    
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom:20px;
+    color: #6d6d6d;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    
+}
+
+/* --------------------------------------------------------------------- */
+/* HEADER */
+/* --------------------------------------------------------------------- */
+
+
+header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/VR_Main.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+
+ .text-box{ 
+  margin-top: -18PX;
+  margin-bottom: -45px;
+  margin-left: 100px;
+  background-color : #1c1c1c;   
+  border: 1px solid red;
+       
+
+}
+
+
+.textarea{
+    margin-right: 480px;
+    margin-top: 20px;
+    border: 1px solid red;
+    position: center;
+    background-color: #1c1c1c;
+    border-radius: 25px;
+}
+
+
+.bottom {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/VR_Main.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+
+
+/* ----------- BUTTONS ----------- */
+
+a:link,
+a:active {
+    color: #f80404;
+    text-decoration: none;
+    border-bottom: 1px solid #ff0000;
+    transition: border-bottom 0.2s, color 0.2s
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+    
+}
+
+
+/* ----------- BUTTONS ----------- */
+
+.btn:link,
+.btn:visited {
+    margin-top: -555px;
+    margin-left: 345px;
+    margin-right: -255px;
+    margin-bottom:px;
+    display: inline-block;
+    padding: 12px 50px;
+    font-weight: 550;
+    text-decoration: none;
+    border-radius: 200;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+
+}
+
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #000000;  
+    border: 1px solid #ffffff;
+    color: #ff0000;
+    border-radius: 25px;
+
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #ff0606;
+    color: #ff0707;
+    border-radius: 200px;
+}   
+
+}
+    
+.btn:hover,
+.btn:active {
+    border-radius: 200px;
+    background-color: transparent;
+}
+
+
+.btn-full:hover,
+.btn-full:active {
+     border: 1px solid #fd0000;
+    background-color: transparent;
+    
+   
+   
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 200px; 
+    
+    
+}
+
+
+
+/* --------------------------------------------------------------------- */
+/* BOTTOM */
+/* --------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+    
+
